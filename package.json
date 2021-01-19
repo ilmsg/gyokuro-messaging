@@ -2,9 +2,16 @@
   "name": "gyokuro-messaging",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "prepublish": "tsc",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilmsg/gyokuro-messaging.git"
   },
   "keywords": [
     "messaging",
@@ -12,5 +19,8 @@
     "facebook"
   ],
   "author": "eak netpanya <eak.netpanya@ilmsg.in.th>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
