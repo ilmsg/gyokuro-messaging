@@ -1,0 +1,16 @@
+{
+  "name": "gyokuro-messaging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "messaging",
+    "line",
+    "facebook"
+  ],
+  "author": "eak netpanya <eak.netpanya@ilmsg.in.th>",
+  "license": "MIT"
+}
